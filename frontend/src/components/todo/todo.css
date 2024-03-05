@@ -1,0 +1,68 @@
+.todo {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  position: relative;
+}
+.todo-inputs {
+  border: none;
+  outline: none;
+}
+.todo-inputs-div {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+#textarea {
+  display: none;
+}
+#select {
+  display: none;
+}
+
+.btn-todo {
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(240, 0, 0, 0.87);
+  border-radius: 5px;
+  color: white !important;
+  font-weight: bold;
+}
+.todo-card {
+  border: 1px solid black;
+}
+.todo-card-p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.card-icons {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+}
+.some {
+  font-weight: bold;
+}
+.del {
+  color: red;
+}
+.button {
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #f0f8ff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
+}
+.todo-update {
+  position: absolute;
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  width: 100%;
+  min-height: 85vh;
+  max-height: auto;
+  display: none;
+}
+.update{
+    height: 100%;
+}
